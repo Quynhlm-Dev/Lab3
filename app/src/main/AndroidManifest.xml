@@ -26,8 +26,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LinearLayout"
-            android:exported="true" />
+            android:name=".LinearLayoutActivity"
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".ConstraintLayout"
             android:exported="true" />

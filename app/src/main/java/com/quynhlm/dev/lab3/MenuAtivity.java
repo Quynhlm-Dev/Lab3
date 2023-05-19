@@ -21,7 +21,7 @@ public class MenuAtivity extends AppCompatActivity {
         btnLL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuAtivity.this,LinearLayout.class));
+                startActivity(new Intent(MenuAtivity.this, LinearLayoutActivity.class));
             }
         });
         btnRL.setOnClickListener(new View.OnClickListener() {
